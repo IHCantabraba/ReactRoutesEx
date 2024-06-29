@@ -48,7 +48,8 @@ footer {
 nav,
 .home,
 .contact,
-.about {
+.about,
+.NotFound {
   display: var(--ihc-basic-display);
   align-items: var(--ihc-basic-align);
 }
@@ -58,7 +59,8 @@ nav,
 }
 nav,
 .home,
-.about {
+.about,
+.NotFound {
   flex-direction: var(--ihc-flex-direc-row);
   width: var(--ihc-basic-width);
 }
@@ -68,7 +70,8 @@ nav {
 }
 .home,
 .about,
-.contact {
+.contact,
+.NotFound {
   width: var(--ihc-basic-width);
   height: var(--ihc-basic-height);
   justify-content: var(--ihc-basic-JContent);
@@ -81,4 +84,7 @@ nav {
 }
 .contact {
   background-color: var(--ihc-Contact-bgColor);
+}
+.NotFound {
+  background-color: lightsalmon;
 }

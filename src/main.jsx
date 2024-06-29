@@ -15,10 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<App />}>
           <Route index element={<Home />}></Route>
           <Route path='about' element={<About />}></Route>
-          <Route
-            path='contact'
-            element={<Contact name='inigo@gmail.com' />}
-          ></Route>
+          <Route path='contact/:name' element={<Contact />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Route>
       </Routes>
